@@ -29,4 +29,10 @@ In this project the Morse Code Encoder will convert a single character into Mors
 
 
 
+## License & Copyright
+© Maneesh T
+Licensed under [MIT LICENSE](LICENSE.md)
+
+
+
 
