@@ -1,5 +1,6 @@
 # Morse Code Encoder on Basys3
 
+This is a project done for course - Design with CPLD and FPGA 
 ### **Abstract:**
 In this project the Morse Code Encoder will convert a single character into Morse code and display the result using the LED’s present on the Basys 3 board, also the length of the Morse code is displayed on the 7-Segment display on the board.
 	
