@@ -15,11 +15,11 @@ In this project the Morse Code Encoder will convert a single character into Mors
 ![](abstract_reference_images/reference_table_for_characters.PNG)
 
 #### Morse Code table:
-![Morse_Code_table](https://github.com/Maneesh3/Morse_Code_Encoder_Basys3/blob/master/abstract_reference_images/Morse_Code_table.PNG "Morse Code table")
+![](abstract_reference_images/Morse_Code_table.PNG)
 
 
 #### Block Diagram: 
-![Block_Diagram](https://github.com/Maneesh3/Morse_Code_Encoder_Basys3/blob/master/abstract_reference_images/Block_Diagram.PNG "Block Diagram")
+![](abstract_reference_images/Block_Diagram.PNG)
 
 
 #### **Applications:**
