@@ -12,14 +12,14 @@ In this project the Morse Code Encoder will convert a single character into Mors
 * 7-Segment Display- for displaying the length of Morse Code.
 
 #### Reference table for characters:
-![](abstract_reference_images/reference_table_for_characters.PNG)
+<img src="abstract_reference_images/reference_table_for_characters.PNG" width=350>
 
 #### Morse Code table:
-![](abstract_reference_images/Morse_Code_table.PNG)
+<img src="abstract_reference_images/Morse_Code_table.PNG" width=300>
 
 
 #### Block Diagram: 
-![](abstract_reference_images/Block_Diagram.PNG)
+<img src="abstract_reference_images/Block_Diagram.PNG" width=550>
 
 
 #### **Applications:**
