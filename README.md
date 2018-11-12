@@ -25,7 +25,7 @@ In this project the Morse Code Encoder will convert a single character into Mors
 #### **Applications:**
 * This Morse code can be used to transmit the information using only 2 types of symbols ‘.’ and ‘–’ , this makes the transmitter or the receiver easy to send the encoded signal.
 * This encoded signal can be transmitted using Light or Sound.
-* Morse Code has also been used as an alternative form of communication for people with disabilities or whom have their abilities to communicate imparied by stroke, heart attack, or paralysis.
+* Morse Code has also been used as an alternative form of communication for people with disabilities or whom have their abilities to communicate impaired by stroke, heart attack, or paralysis.
 
 
 
