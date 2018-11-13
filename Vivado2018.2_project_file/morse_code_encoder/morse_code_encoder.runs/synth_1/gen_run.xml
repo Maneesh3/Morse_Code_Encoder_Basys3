@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1541944975">
-  <File Type="PA-TCL" Name="morse_encoder.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1542081556">
   <File Type="RDS-PROPCONSTRS" Name="morse_encoder_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="morse_encoder_reports.tcl"/>
+  <File Type="PA-TCL" Name="morse_encoder.tcl"/>
   <File Type="RDS-RDS" Name="morse_encoder.vds"/>
   <File Type="RDS-UTIL" Name="morse_encoder_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="morse_encoder_utilization_synth.pb"/>
@@ -13,7 +12,7 @@
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/morse_encoder.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../project1/project1.srcs/sources_1/new/morse_encoder.v"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Morse_Code_Encoder_Basys3-master/Vivado2018.2_project_file/project1/project1.srcs/sources_1/new/morse_encoder.v"/>
         <Attr Name="ImportTime" Val="1540397515"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -30,7 +29,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/new/PINS.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../project1/project1.srcs/constrs_1/new/PINS.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Morse_Code_Encoder_Basys3-master/Vivado2018.2_project_file/project1/project1.srcs/constrs_1/new/PINS.xdc"/>
         <Attr Name="ImportTime" Val="1540397544"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -41,7 +40,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

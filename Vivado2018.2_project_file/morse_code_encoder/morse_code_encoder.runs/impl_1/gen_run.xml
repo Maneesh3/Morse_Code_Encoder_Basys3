@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1541945122">
-  <File Type="BITSTR-BMM" Name="morse_encoder_bd.bmm"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1542081594">
+  <File Type="PWROPT-DRC" Name="morse_encoder_drc_pwropted.rpt"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="morse_encoder_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="morse_encoder_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="morse_encoder_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="morse_encoder_power_routed.rpx"/>
   <File Type="PA-TCL" Name="morse_encoder.tcl"/>
-  <File Type="OPT-TIMING" Name="morse_encoder_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="morse_encoder_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="morse_encoder_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="morse_encoder_reports.tcl"/>
-  <File Type="OPT-DRC" Name="morse_encoder_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="morse_encoder.hwdef"/>
+  <File Type="RDI-RDI" Name="morse_encoder.vdi"/>
+  <File Type="OPT-DCP" Name="morse_encoder_opt.dcp"/>
+  <File Type="OPT-DRC" Name="morse_encoder_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="morse_encoder_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="morse_encoder_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="morse_encoder_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="morse_encoder_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="morse_encoder_placed.dcp"/>
   <File Type="PLACE-IO" Name="morse_encoder_io_placed.rpt"/>
@@ -22,29 +20,27 @@
   <File Type="PLACE-CTRL" Name="morse_encoder_control_sets_placed.rpt"/>
   <File Type="PLACE-SIMILARITY" Name="morse_encoder_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="morse_encoder_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="morse_encoder.bgn"/>
   <File Type="PLACE-TIMING" Name="morse_encoder_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="morse_encoder_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="morse_encoder.bin"/>
   <File Type="POSTPLACE-PWROPT-TIMING" Name="morse_encoder_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="morse_encoder_physopt.dcp"/>
   <File Type="PHYSOPT-DRC" Name="morse_encoder_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="morse_encoder.msk"/>
   <File Type="PHYSOPT-TIMING" Name="morse_encoder_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="morse_encoder_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="morse_encoder_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="morse_encoder_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="morse_encoder_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="morse_encoder_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="morse_encoder.ltx"/>
+  <File Type="BG-BIN" Name="morse_encoder.bin"/>
   <File Type="ROUTE-DRC-RPX" Name="morse_encoder_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="morse_encoder.mmi"/>
+  <File Type="BG-DRC" Name="morse_encoder.drc"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="morse_encoder_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="morse_encoder.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="morse_encoder_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="morse_encoder.sysdef"/>
+  <File Type="BG-BGN" Name="morse_encoder.bgn"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="morse_encoder_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="morse_encoder_power_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="morse_encoder_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="morse_encoder_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="morse_encoder_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="morse_encoder_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="morse_encoder_timing_summary_routed.rpt"/>
@@ -52,28 +48,23 @@
   <File Type="ROUTE-TIMING-RPX" Name="morse_encoder_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="morse_encoder_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="morse_encoder_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="morse_encoder_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="morse_encoder_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="morse_encoder_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="morse_encoder_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="morse_encoder_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="morse_encoder_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="morse_encoder_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="morse_encoder_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="morse_encoder_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="morse_encoder_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="morse_encoder.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="morse_encoder_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="morse_encoder.rbt"/>
   <File Type="BITSTR-NKY" Name="morse_encoder.nky"/>
-  <File Type="BG-DRC" Name="morse_encoder.drc"/>
-  <File Type="RDI-RDI" Name="morse_encoder.vdi"/>
+  <File Type="BITSTR-BMM" Name="morse_encoder_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="morse_encoder.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="morse_encoder.sysdef"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/morse_encoder.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../project1/project1.srcs/sources_1/new/morse_encoder.v"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Morse_Code_Encoder_Basys3-master/Vivado2018.2_project_file/project1/project1.srcs/sources_1/new/morse_encoder.v"/>
         <Attr Name="ImportTime" Val="1540397515"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -90,7 +81,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/new/PINS.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../project1/project1.srcs/constrs_1/new/PINS.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Morse_Code_Encoder_Basys3-master/Vivado2018.2_project_file/project1/project1.srcs/constrs_1/new/PINS.xdc"/>
         <Attr Name="ImportTime" Val="1540397544"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -101,7 +92,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

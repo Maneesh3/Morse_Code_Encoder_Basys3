@@ -1,8 +1,8 @@
-Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Sun Nov 11 19:33:42 2018
-| Host         : DESKTOP-2P30CJ8 running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
+| Date         : Tue Nov 13 09:29:46 2018
+| Host         : DESKTOP-0DCPN3L running 64-bit major release  (build 9200)
 | Command      : report_utilization -file morse_encoder_utilization_synth.rpt -pb morse_encoder_utilization_synth.pb
 | Design       : morse_encoder
 | Device       : 7a35tcpg236-1
